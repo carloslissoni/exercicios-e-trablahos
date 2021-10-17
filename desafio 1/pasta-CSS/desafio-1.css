@@ -1,0 +1,182 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    
+}
+
+
+.caixa-principal{
+    position:flex;
+    border:1px solid black;
+    width: auto;
+    height: auto;  
+    }
+
+.pontilhado{
+    border-right:  1px dashed#212121;
+}
+
+header{
+    display: flex;
+    height: 40px;
+    background-color: #212121;
+    width: 80%;
+    margin:auto;
+    justify-content: space-between ;
+    
+
+
+}
+
+
+   
+ 
+   .contatos {
+
+        width: auto;
+        height: auto ;
+        background-color: #212121;
+      
+
+    }
+
+    .contatos:hover{
+        width: auto;
+        height: auto;
+        background-color: rgb(243, 6, 6);
+        cursor: pointer;
+        background-size: cover;
+    }
+
+
+
+
+.botoes{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    border: 0 auto;
+    font-family: helvetica;
+    justify-content: space-between;
+    
+    
+}
+p{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-family:Helvetica;
+    
+}
+
+.home{
+    
+    width: 100%;
+    height: auto;
+    border-radius: 5px solid rgb(229, 255, 0);
+    
+    background-color: rgba(229, 255, 0, 1);;
+    
+    
+    
+}
+
+.texto{
+    
+   
+color: #fff;
+height: 30px;
+width: 100%;
+border-radius: 5px;
+border: 1px solid black;
+padding: auto;
+
+}
+
+
+main{
+display: flex;
+padding: auto;
+border: auto;
+width: 50%;
+height: auto;
+margin: auto;
+
+
+
+
+}
+
+#caixa-principal{
+    justify-content: center;
+    display: flex;
+    
+    height: auto;
+    padding: 0;
+    width: 50%;
+}
+.estante{
+    display:flex;
+    width: 50%;
+    height: auto;
+    margin: 0;
+    
+    margin: auto;
+    padding: 0 auto;
+   
+    
+   
+    padding: auto ;
+
+}
+section > div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.rodape {height: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: helvetica;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+   border: 0 auto;
+    }
+
+.logo{
+    
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: flex-start;
+    font-family: helvetica;
+    color: white;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80%;
+    background-color: #212121;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10%;
+   
+    
+
+       }
+    
+
+    
